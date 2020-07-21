@@ -16,5 +16,9 @@
       "**/.DS_Store": true,
       "**/.theia": true,
    },
-   "emmet.extensionsPath": ".theia"
+"emmet.extensionsPath": ".theia",
+"prettier.jsxBracketSameLine": true,
+"prettier.withNodeModules": true,
+"editor.wordWrap": "off",
+"prettier.proseWrap": "never"
 }
