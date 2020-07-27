@@ -2,6 +2,7 @@ from django.shortcuts import reverse, redirect, render, get_object_or_404
 from django.contrib import messages
 from .models import Product, Category
 from django.db.models import Q
+from django.db.models.functions import Lower
 
 # Create your views here.
 
