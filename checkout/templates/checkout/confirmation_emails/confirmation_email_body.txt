@@ -1,0 +1,18 @@
+Hello {{order.full_name}}
+
+Thank you for purchasing with Boutique Ado.
+
+Your order Number is {{order.order_number}}
+Date {{order.date}}
+
+Order total ${{order.order_total}}
+Deliver total ${{order.deliver_cost}}
+Grand Total $Order total {{order.grand_total}}
+
+Your order will be shipped to {{order.street_address1}} in {{order.town_or_city}}.
+
+Please contact {{contact_email}} for any enquiries.
+
+Thanks for your order
+
+Boutique Ado
