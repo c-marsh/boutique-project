@@ -11,12 +11,12 @@ class UserProfile(models.Model):
     # and order history
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     default_Truephone_number = models.CharField(max_length=20, null=True, blank=True)
-    default_Truecountry = CountryField(blank_label='Country *', null=True, blank=True)
-    default_Truepostcode = models.CharField(max_length=20, null=True, blank=True)
-    default_Truetown_or_city = models.CharField(max_length=40, null=True, blank=True)
     default_Truestreet_address1 = models.CharField(max_length=80, null=True, blank=True)
     default_Truestreet_address2 = models.CharField(max_length=80, null=True, blank=True)
+    default_Truetown_or_city = models.CharField(max_length=40, null=True, blank=True)
     default_Truecounty = models.CharField(max_length=80, null=True, blank=True)
+    default_Truepostcode = models.CharField(max_length=20, null=True, blank=True)
+    default_Truecountry = CountryField(blank_label='Country *', null=True, blank=True)
 
     def __str__(self):
         return self.user.username
